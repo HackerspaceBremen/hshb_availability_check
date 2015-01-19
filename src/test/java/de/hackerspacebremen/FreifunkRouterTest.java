@@ -50,9 +50,8 @@ public final class FreifunkRouterTest {
 		Assert.assertNotNull(node);
 	}
 	
-	@Test(enabled=false)
 	public void checkEWerkstattFreifunkRouter(){
-		final JSONObject node = nodes.get("???");
+		final JSONObject node = nodes.get("a0:f3:c1:71:84:14");
 		
 		Assert.assertNotNull(node);
 	}
