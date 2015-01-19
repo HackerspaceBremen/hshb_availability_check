@@ -23,7 +23,7 @@ public final class RipeNodeTest {
 		System.setProperty("jsse.enableSNIExtension", "false");
 	}
 
-	public void checkRipeNode() throws ClientProtocolException,
+	public void checkRipeProbe() throws ClientProtocolException,
 			IOException {
 		final HttpClient httpclient = HttpClientBuilder.create().build();
 		final HttpGet httpget = new HttpGet(
